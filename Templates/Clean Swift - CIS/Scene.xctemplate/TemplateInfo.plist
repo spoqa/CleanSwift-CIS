@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>MyScene</string>
+	<key>Description</key>
+	<string>This generates a new scene using Uncle Bob&apos;s clean architecture. It consists of the view, controller, interactor, store, worker. and modularize with SPM(Swift Package Manager)</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the scene to create</string>
+			<key>Identifier</key>
+			<string>sceneName</string>
+			<key>Name</key>
+			<string>New Scene Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___View</string>
+			<key>Description</key>
+			<string>The view name</string>
+			<key>Identifier</key>
+			<string>viewName</string>
+			<key>Name</key>
+			<string>View Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Interactor</string>
+			<key>Description</key>
+			<string>The interactor name</string>
+			<key>Identifier</key>
+			<string>interactorName</string>
+			<key>Name</key>
+			<string>Interactor Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Store</string>
+			<key>Description</key>
+			<string>The store name</string>
+			<key>Identifier</key>
+			<string>storeName</string>
+			<key>Name</key>
+			<string>Store Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Controller</string>
+			<key>Description</key>
+			<string>The controller name</string>
+			<key>Identifier</key>
+			<string>controllerName</string>
+			<key>Name</key>
+			<string>Controller Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Worker</string>
+			<key>Description</key>
+			<string>The worker name</string>
+			<key>Identifier</key>
+			<string>workerName</string>
+			<key>Name</key>
+			<string>Worker Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Models</string>
+			<key>Description</key>
+			<string>The models name</string>
+			<key>Identifier</key>
+			<string>modelsName</string>
+			<key>Name</key>
+			<string>Models Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>uiFramework</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>UI Framework:</string>
+			<key>Description</key>
+			<string>The type of classes to create</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>SwiftUI</string>
+			<key>Values</key>
+			<array>
+				<string>SwiftUI</string>
+				<string>UIKit</string>
+			</array>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>0</string>
+	<key>Summary</key>
+	<string>This generates a new scene using Uncle Bob&apos;s clean architecture.</string>
+</dict>
+</plist>

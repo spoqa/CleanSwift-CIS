@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>MyUnitTests</string>
+	<key>Description</key>
+	<string>This generates new controller tests, interactor tests, store tests.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Name</key>
+			<string>New UnitTests Name:</string>
+			<key>Default</key>
+			<string>New</string>
+			<key>Identifier</key>
+			<string>productName</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___ControllerTests</string>
+			<key>Description</key>
+			<string>The controllerTests name</string>
+			<key>Identifier</key>
+			<string>controllerTestsName</string>
+			<key>Name</key>
+			<string>ControllerTests Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___InteractorTests</string>
+			<key>Description</key>
+			<string>The interactorTests name</string>
+			<key>Identifier</key>
+			<string>interactorTestsName</string>
+			<key>Name</key>
+			<string>interactorTests Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___StoreTests</string>
+			<key>Description</key>
+			<string>The storeTests name</string>
+			<key>Identifier</key>
+			<string>storeTestsName</string>
+			<key>Name</key>
+			<string>StoreTests Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>0</string>
+	<key>Summary</key>
+	<string>This generates new controller tests, interactor tests, store tests.</string>
+</dict>
+</plist>

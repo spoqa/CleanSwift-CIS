@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>MyView</string>
+	<key>Description</key>
+	<string>This generates a new view.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Name</key>
+			<string>New View Name:</string>
+			<key>Default</key>
+			<string>New</string>
+			<key>Identifier</key>
+			<string>productName</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>uiFramework</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>UI Framework:</string>
+			<key>Description</key>
+			<string>The type of classes to create</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>SwiftUI</string>
+			<key>Values</key>
+			<array>
+				<string>SwiftUI</string>
+				<string>UIKit</string>
+			</array>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>0</string>
+	<key>Summary</key>
+	<string>This generates a new scene using Uncle Bob&apos;s clean architecture.</string>
+</dict>
+</plist>
